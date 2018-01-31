@@ -1,0 +1,34 @@
+#landingPage a:hover{
+	color: rgb(255,5,85);
+	text-decoration: none;
+}
+#footer{
+	color: rgb(255,5,85);
+	background-color: #000;
+}
+#contactMe a:visited {
+	color: rgb(255,5,85);
+}
+#contactMe a:hover{
+	color: #000;
+}
+.icon-round{
+	border: 2px solid #000;
+	color:rgb(255, 5, 85);
+	background-color: #000;
+}
+.icon-square{
+	background-color: #000;
+	color: rgb(255,5,85);
+}
+.icon-square:hover{
+	color: #000;
+	background-color: rgb(255,5,85);
+}
+.icon-round:hover{
+	color: #000;
+	background-color: rgb(255,5,85);
+}
+a{
+	color: rgb(255,5,85);
+}
