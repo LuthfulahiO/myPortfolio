@@ -71,13 +71,13 @@ margin-bottom: 20px
 	line-height: 50px;
 }
 #p1:hover{
-	content: url(../img/project1-0.jpg);
+	content: url(http://res.cloudinary.com/luthfulahi/image/upload/v1517454658/project1-0_g1dzd5.jpg);
 }
 #p2:hover{
-	content: url(../img/project2-0.jpg);
+	content: url(http://res.cloudinary.com/luthfulahi/image/upload/v1517454658/project2-0_wunbos.jpg);
 }
 #p3:hover{
-	content: url(../img/project3-0.jpg);
+	content: url(http://res.cloudinary.com/luthfulahi/image/upload/v1517454658/project3-0_m0yg6g.jpg);
 }
 .main-img:hover{
 	content: url(../img/code.png);
