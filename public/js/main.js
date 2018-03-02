@@ -29,3 +29,29 @@ $(document).ready(function(){
 		    }, 2000);
 		});
 });
+function validateSubmit() {
+    var name = $('#name');
+    var email = $('#email');
+    var message = $('#message');
+    if ((name.val() === '') || (email.val() === '') || (message.val() === '')) {
+           $('#name').addClass('form-error animated shake')
+                     .one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+                           $(this).removeClass('animated shake');
+           });
+           $('#email').addClass('form-error animated shake')
+                      .one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+                           $(this).removeClass('animated shake');
+           });
+          $('#msg').addClass('form-error animated shake')
+                     .one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+                           $(this).removeClass('animated shake');
+           });
+                return false;
+       } else {
+           $('#name').removeClass('form-error');
+            $('#email').removeClass('form-error');
+            $('#message').removeClass('form-error');
+            return true;
+
+       }
+}

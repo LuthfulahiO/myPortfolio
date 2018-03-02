@@ -85,3 +85,6 @@ margin-bottom: 20px
 .fadeh {
 	margin-top: 70px;
 }
+.form-error{
+	border: 1px solid red !important;
+}
