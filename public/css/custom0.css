@@ -15,7 +15,7 @@ body {
     /*background: linear-gradient(to bottom left, rgb(255, 5, 85), #fff);*/
     font-size: xx-large;
     line-height: 300%;
-    min-height: 100vh;
+    min-height: auto;
     font-weight: 300;
 }
 
